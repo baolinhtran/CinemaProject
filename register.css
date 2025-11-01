@@ -1,3 +1,7 @@
 body{
     background: black;
 }
+.div {
+    position: fixed;
+    display: flex ;
+}
