@@ -22,10 +22,10 @@ function renderFilms(films) {
         `<div class="movie-card">
         <img src="${phim.image}" alt="${phim.title}">
         <h3>${phim.title}</h3>
-        <p><strong>Năm:</strong> ${phim.release_date}</p>
-        <p><strong>Đạo diễn:</strong> ${phim.director}</p>
-        <p><strong>Điểm:</strong> ${phim.score}</p>
-        <p><strong>Mô tả:</strong> ${phim.description}</p>
+        <p><strong>Release year: </strong> ${phim.release_date}</p>
+        <p><strong>Director: </strong> ${phim.director}</p>
+        <p><strong>Rate: </strong> ${phim.score}</p>
+        <p><strong>Discription: </strong> ${phim.description}</p>
         </div>`).join('');
     document.getElementById('listOfMovies').innerHTML = html;
 }
