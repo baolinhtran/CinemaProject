@@ -117,4 +117,6 @@ body{
     height: 400px;
 }
 
-.footer{}
+footer{
+    background: rgb(238, 240, 152);
+}
